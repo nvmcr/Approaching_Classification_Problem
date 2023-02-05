@@ -70,7 +70,6 @@ I used following models in the code:
 10. Voting Classifier  
 #### When to choose which model?
 1. Logistic Regression:
-
   Logistic Regression is a simple and straightforward algorithm that is well suited for small- to medium-sized datasets with a linear decision boundary.
   It is also a good choice when you have a clear understanding of the relationship between the predictor variables and the target variable and you want to make predictions based on a single or a combination of predictor variables.
   Logistic Regression is not recommended for datasets with a large number of features or a complex non-linear relationship between the predictor variables and target variable.  
