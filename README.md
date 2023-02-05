@@ -73,11 +73,11 @@ I used following models in the code:
 
   Logistic Regression is a simple and straightforward algorithm that is well suited for small- to medium-sized datasets with a linear decision boundary.
   It is also a good choice when you have a clear understanding of the relationship between the predictor variables and the target variable and you want to make predictions based on a single or a combination of predictor variables.
-  Logistic Regression is not recommended for datasets with a large number of features or a complex non-linear relationship between the predictor variables and target variable.
+  Logistic Regression is not recommended for datasets with a large number of features or a complex non-linear relationship between the predictor variables and target variable.  
 2. k-Nearest Neighbors (k-NN):  
   k-NN is a simple and effective algorithm for small- to medium-sized datasets with a non-linear decision boundary.
   It works by finding the k instances in the training dataset that are closest to a new instance, and using the class labels of these instances to make a prediction.
-  k-NN is not recommended for datasets with a large number of features, as the computational complexity can become a problem.
+  k-NN is not recommended for datasets with a large number of features, as the computational complexity can become a problem.  
 3. Support Vector Machines  
   SVM's are best suited for large number of features even wih small datasets. They are computationally inexpensive and can handle imbalanced data.
 4. Naive Bayes:  
