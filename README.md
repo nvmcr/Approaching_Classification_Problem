@@ -68,6 +68,34 @@ I used following models in the code:
 8. AdaBoost
 9. Gradient Boosting
 10. Voting Classifier  
+#### When to choose which model?
+1. Logistic Regression:
+
+  Logistic Regression is a simple and straightforward algorithm that is well suited for small- to medium-sized datasets with a linear decision boundary.
+  It is also a good choice when you have a clear understanding of the relationship between the predictor variables and the target variable and you want to make predictions based on a single or a combination of predictor variables.
+  Logistic Regression is not recommended for datasets with a large number of features or a complex non-linear relationship between the predictor variables and target variable.
+2. k-Nearest Neighbors (k-NN):  
+  k-NN is a simple and effective algorithm for small- to medium-sized datasets with a non-linear decision boundary.
+  It works by finding the k instances in the training dataset that are closest to a new instance, and using the class labels of these instances to make a prediction.
+  k-NN is not recommended for datasets with a large number of features, as the computational complexity can become a problem.
+3. Support Vector Machines  
+  SVM's are best suited for large number of features even wih small datasets. They are computationally inexpensive and can handle imbalanced data.
+4. Naive Bayes:  
+  Naive Bayes is a fast and simple algorithm that is well suited for datasets with a large number of features and a small number of instances.
+  It works by assuming that the features are conditionally independent, given the class label, and using Bayes' theorem to calculate the probability of each class for a new instance.
+  Naive Bayes can be a good choice for datasets with a large number of features and a small number of instances, especially if the features are highly informative and the relationships between the features and the class label are well understood.
+5. Decision Trees:  
+  Decision Trees are a simple and interpretable algorithm that is well suited for datasets with a small number of features and a non-linear decision boundary.
+  They work by recursively dividing the feature space into smaller regions, based on the relationships between the features and the class label, until the regions are pure, meaning that all instances in a region belong to the same class.
+  Decision Trees can be a good choice for datasets with a small number of features and a non-linear decision boundary, especially if interpretability is important.
+6. Random Forest:  
+  Random Forest is an ensemble algorithm that is well suited for datasets with a large number of features and a non-linear decision boundary.
+  It works by combining the predictions of many decision trees, trained on different samples of the training dataset, to make a final prediction thus decreasing variance which was the issue with decision trees.
+  Random Forest is a good choice for datasets with a large number of features and a non-linear decision boundary, as it can handle complex relationships between the features and the target variable and provide improved accuracy over a single decision tree.
+7. AdaBoost and Gradient Boost  
+  These are boosting methods where base estimators are built on each other sequentially thus decreasing the bias.
+
+Though this gives a little intuition on when to use what, it doesn't always hold true. It all depends on the data. So its better to try all of them (for larger datasets, go with intuition based on data and choose few as running all models might be computationally expensive).
 
 In the notebook, I have added my **personal notes** for most of the models to understand how the algorithm works. I progressively built on different concepts and applications of **cross validation** techniques, **hyperparameter optimization**, **Ensemble** techniques. Below are the snapshots of feature importance from a tree based model and overall accuracies leaving the final ensemble respectively.  
 
