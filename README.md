@@ -107,5 +107,5 @@ In the notebook, I have added my **personal notes** for most of the models to un
 ![Feature Importance](images/fea_imp.png)
 
 ![Summary of Model](images/summary.png)
-## License
+## License 
 Licensed under MIT licence (no restrictions!)
