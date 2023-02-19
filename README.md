@@ -1,5 +1,8 @@
 # Approaching a Supervised Machine Learning Problem
 This repository is created to give a brief introduction on how to approach a supervised classification problem. Though the problem is classification, the approach can be used for regression problems too.
+## Table of Contents  
+1. [Goal](#Goal)
+2. [Repository Structure](#Repository-Structure)
 ## Goal
 The aim of this repository is not just to achieve the accuracy using any one model. It's more about how you start with the raw data and what tools can be used to get a final solution. I use this repository more like a **revision material** from time to time as I discussed various techniques to get inputs from the data and go over an exhautive list of machine learning algorithms along with my personal notes explaining the algorithm in laymans terms.
 ## Repository Structure
