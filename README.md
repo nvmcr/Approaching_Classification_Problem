@@ -7,10 +7,10 @@ This repository is created to give a brief introduction on how to approach a sup
 4. [Note](#note-on-data-visualization)
 5. [Approach](#approach)
     1. [EDA](#exploratory-data-analysis)
-    2. [Data Pre-processing](#Data-Pre-processing)
-    3. [Feature Engineering](#Feature-Engineering)
-    4. [ML Models](#Building-supervised-ml-models)
-        1. [Which model to choose?](#When-to-choose-which-model?)
+    2. [Data Pre-processing](#data-pre-processing)
+    3. [Feature Engineering](#feature-engineering)
+    4. [ML Models](#building-supervised-ml-models)
+        1. [Which model to choose?](#when-to-choose-which-model?)
 ## Goal
 The aim of this repository is not just to achieve the accuracy using any one model. It's more about how you start with the raw data and what tools can be used to get a final solution. I use this repository more like a **revision material** from time to time as I discussed various techniques to get inputs from the data and go over an exhautive list of machine learning algorithms along with my personal notes explaining the algorithm in laymans terms.
 ## Repository Structure
