@@ -18,6 +18,10 @@ The aim of this repository is not just to achieve the accuracy using any one mod
 .
 ├── Notebook.ipynb
 ├── README.md
+├── data
+│   ├── kaggleSub.csv
+│   ├── test.csv
+│   └── train.csv
 ├── environment.yml
 ├── images
 │   ├── Age_fare_count.png
@@ -25,9 +29,9 @@ The aim of this repository is not just to achieve the accuracy using any one mod
 │   ├── fare_gaus.png
 │   ├── fea_imp.png
 │   └── summary.png
-└── train.csv
+└── license
 
-1 directory, 9 files
+2 directories, 12 files
 ```
 ## Usage
 If you want a quick glance, click on the `Notebook.ipynb` which has all the code and outputs with explanations. Or you want to try it on your own, you can download from the github. But I prefer to do it from the command line as I enclosed a `environment.yml` too to give you all the required packages in one shot. The usage steps are:
