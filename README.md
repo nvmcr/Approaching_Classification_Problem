@@ -34,13 +34,13 @@ The aim of this repository is not just to achieve the accuracy using any one mod
 2 directories, 12 files
 ```
 ## Usage
-If you want a quick glance, click on the `Notebook.ipynb` which has all the code and outputs with explanations. Or you want to try it on your own, you can download from the github. But I prefer to do it from the command line as I enclosed a `environment.yml` too to give you all the required packages in one shot. The usage steps are:
+For a quick glance, click on the `Notebook.ipynb` which has all the code and outputs with explanations. To reproduce follow these steps:
 1. Open your terminal
-2. Clone the repoistory using `git clone git@github.com:nvmcr/My_Portfolio.git`.
-3. This will create a repository with all my portfolio projects. (sorry if you wanted to clone just the present repo)
+2. Clone the repoistory using `git clone git@github.com:nvmcr/Approaching_SupervisedML_Problem.git`.
 4. Enter the present repo using `cd Approaching_SupervisedML_Problem/`.
 5. Set up a new virtual environment with all necessary packages and dependencies using `conda env create -f environment.yml`
 6. Activate the virtual environment with `conda activate titanic`
+7. Open the notebook, explore and run.
 6. You can deactivate the virtual environment using `conda deactivate`
 
 ## Note on Data Visualization
