@@ -44,7 +44,7 @@ For a quick glance, click on the `Notebook.ipynb` which has all the code and out
 6. You can deactivate the virtual environment using `conda deactivate`
 
 ## Note on Data Visualization
-Instead of using usual `Matplotlib` or popular `Seaborn`, I used a declarative visualization library called `Altair`. It is built upon `Vega` and `Vega-lite`. Though the syntax of `Altair` is bit complex than `Seaborn`, it has many advantages over the later. They have interactive plots, tooltips, huge customizations, awesome selection features (you can control plots through selections in another plot) and more over a clear **grammar**. Sadly, interactive plots are not supported on github but you can try them out on you local system. I highly recommned to give it a try.
+Instead of using usual `Matplotlib` or popular `Seaborn`, I used a declarative visualization library called `Altair`. It is built upon `Vega` and `Vega-lite`. Though the syntax of `Altair` is bit complex than `Seaborn`, it has many advantages over the later. They have interactive plots, tooltips, huge customizations, awesome selection features (you can control plots through selections in another plot) and more over a clear **grammar**. Sadly, interactive plots are not supported on github but you can try them out on you local system. I highly recommend to give it a try. More projects on visualization are in [link](https://github.com/nvmcr/Data_Visualization).
 
 ## Approach
 First things first, we will import necessary libraries and the dataset. As the goal is more about the process than the result, I chose a simple dataset available at Kaggle: https://www.kaggle.com/competitions/titanic/data?select=train.csv
