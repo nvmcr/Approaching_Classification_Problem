@@ -84,7 +84,7 @@ I used following models in the code:
 9. Gradient Boosting
 10. Voting Classifier  
 #### When to choose which model?
-The**No Free Lunch** property in machine learning, stated very informally, is that no one learning strategy will work in all circumstances. We have to test different models but take an educated guess to start with.
+The **No Free Lunch** property in machine learning, stated very informally, is that no one learning strategy will work in all circumstances. We have to test different models but take an educated guess to start with.
 
 1. Logistic Regression:  
   Logistic Regression is a simple and straightforward algorithm that is well suited for small- to medium-sized datasets with a linear decision boundary.
